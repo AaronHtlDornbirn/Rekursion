@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using Rekursion;
 
 namespace RekursionTests
 {
@@ -10,9 +11,16 @@ namespace RekursionTests
         }
 
         [Test]
-        public void Test1()
+        public void Fakultät()
         {
-            Assert.Pass();
+
         }
+
+        [Test]
+        public void FibonacciFolge()
+        {
+            
+        }
+
     }
 }
