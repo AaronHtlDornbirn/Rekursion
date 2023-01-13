@@ -8,7 +8,7 @@ namespace Rekursion
 {
     public class Fakultät
     {
-        public int GetFakultät(int number)
+        public static int GetFakultät(int number)
         {
             if(number == 1)
             {

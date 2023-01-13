@@ -8,7 +8,7 @@ namespace Rekursion
 {
     public class FibonacciFolge
     {
-        public int GetFibonacciFolge(int number)
+        public static int GetFibonacciFolge(int number)
         {
             if ((number == 0) || (number == 1))
             {
